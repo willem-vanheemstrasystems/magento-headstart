@@ -186,7 +186,58 @@ Your Store Address: http://localhost/magento21/
 Magento Admin Address: 
 http://localhost/magento21/admin<unique number, e.g. _ho71mo>
 
+Advanced Options:
 
+- HTTPS Options: 
 
+  - [Unchecked] Use HTTPS for Magento Storefront
+  - [Unchecked] Use HTTPS for Magento Admin
 
+- Apache Rewrites: [Checked] Use Apache Web Server Rewrites
+
+- Encryption Key:
+
+  - [Checked] I want to use a Magento generated key
+
+  - [Unchecked] I want to use my own encryption key
+
+- Session Save: Files
+
+Choose Next to go to the next step.
+
+##Step 4: Customize Your Store
+
+Store Default Time Zone: GMT (UTC)
+
+Store Default Currency: US Dollar (USD)
+
+Store Default Language: English (United States)
+
+Advanced Modules Configurations:
+
+- [Checked] Select all
+
+122 out of 122 selected
+
+Choose Next to go to the next step.
+
+##Step 5: Create Admin Account
+
+Create a new Admin account to manage your store.
+
+New Username: magento21
+
+New Email: wvanheemstra@icloud.com
+
+New Password: <e.g. magento21>
+
+Confirm Password: <e.g. magento21>
+
+Choose Next to go to the next step.
+
+##Install
+
+You're ready!
+
+Click the button 'Install Now'.
 
