@@ -326,7 +326,7 @@ NOTE: if you want to reindex only one indexer then write following command:
 
 ```javascript
 cd C:\xampp\htdocs\magento21
-C:\xampp\php\php bin\magento indexer:reindex <indexer_name>
+C:\xampp\php\php bin\magento indexer:reindex <<indexer_name>>
 ```
 
 where indexer_name can be found by typing following command :
@@ -347,7 +347,7 @@ Check the specified cache type, choose 'Refresh' from the actions drop down list
 After having installed the static files of the Magento Store, browse to the Home Page at:
 
 ```javascript
-http://localhost/meganto21/
+http://localhost/magento21/
 ```
 
 It will show the demo Home Page of the Luma theme.
