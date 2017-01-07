@@ -229,9 +229,9 @@ New Username: magento21
 
 New Email: wvanheemstra@icloud.com
 
-New Password: \<'e.g. magento21'\>
+New Password: \<e.g. magento21\>
 
-Confirm Password: \<'e.g. magento21'\>
+Confirm Password: \<e.g. magento21\>
 
 Choose Next to go to the next step.
 
