@@ -229,9 +229,9 @@ New Username: magento21
 
 New Email: wvanheemstra@icloud.com
 
-New Password: <e.g. magento21>
+New Password: <<e.g. magento21>>
 
-Confirm Password: <e.g. magento21>
+Confirm Password: <<e.g. magento21>>
 
 Choose Next to go to the next step.
 
@@ -326,7 +326,7 @@ NOTE: if you want to reindex only one indexer then write following command:
 
 ```javascript
 cd C:\xampp\htdocs\magento21
-C:\xampp\php\php bin\magento indexer:reindex <<indexer_name>>
+C:\xampp\php\php bin\magento indexer:reindex <indexer_name>
 ```
 
 where indexer_name can be found by typing following command :
