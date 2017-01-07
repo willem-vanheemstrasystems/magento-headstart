@@ -245,3 +245,56 @@ A progress bar will show the progress of the installation.
 
 Wait till it has reached 100%.
 
+##Success
+
+Success
+
+Please keep this information for your records:
+
+Magento Admin Info:
+
+Username: magento21
+
+Email: wvanheemstra@icloud.com
+
+Password: ******
+
+Your Store Address: http://localhost/magento21/
+
+Magento Admin Address: http://localhost/magento21/admin_ho71mo/
+
+Be sure to bookmark your unique URL and record it offline.
+
+Encryption Key: c419879920ccc787378159a5b41fdb53
+
+Database Info:
+
+Database Name: magento21
+
+Username: root
+
+Password: ******
+
+For security, remove write permissions from these directories: 'C:/xampp/htdocs/magento21/app/etc'
+
+NOTE: Change the permissions in Windows by changing the properties of the directory 'etc', removing the permission to write.
+
+Click the button 'Launch Magento Admin'.
+
+#Signing in to Magento Admin Panel
+
+Follow the URL to get to the Magento Admin Panel (e.g. http://localhost/magento21/admin_ho71mo/).
+
+When prompted for a username and password, type:
+
+```javascript
+Username: magento21
+Password: magento21
+```
+
+Click the button 'Sign in'.
+
+#Dashboard of Magento Admin Panel
+
+After successfully signing in to Magento, the Dashboard will be shown.
+
