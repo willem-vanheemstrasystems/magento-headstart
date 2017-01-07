@@ -235,9 +235,13 @@ Confirm Password: <e.g. magento21>
 
 Choose Next to go to the next step.
 
-##Install
+##Step 6: Install
 
 You're ready!
 
 Click the button 'Install Now'.
+
+A progress bar will show the progress of the installation.
+
+Wait till it has reached 100%.
 
