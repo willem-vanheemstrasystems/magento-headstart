@@ -298,3 +298,56 @@ Click the button 'Sign in'.
 
 After successfully signing in to Magento, the Dashboard will be shown.
 
+NOTE: Icons and images may be missing on this Dashboard. To get the images to show we have to do the following:
+
+Run the following command from a Terminal, to install the static demo files:
+
+```javascript
+cd C:\xampp\htdocs\magento21
+C:\xampp\php\php bin/magento setup:static-content:deploy
+```
+
+Now when you refresh the Dashboard (http://localhost/magento21/admin_ho71mo/admin/dashboard) all images should show.
+
+NOTE: Should there be a number of System Messages, click on the number to view what is being warned.
+
+E.g.: "One or more indexers are invalid. Make sure your Magento cron job is running."
+
+In the above case, following the link to the indexer (http://localhost/magento21/admin_ho71mo/indexer/indexer/) will list all records and their status. 
+
+Run the following command from a Terminal, to re-index files:
+
+```javascript
+cd C:\xampp\htdocs\magento21
+C:\xampp\php\php bin/magento indexer:reindex
+```
+
+NOTE: if you want to reindex only one indexer then write following command:
+
+```javascript
+cd C:\xampp\htdocs\magento21
+C:\xampp\php\php bin\magento indexer:reindex <indexer_name>
+```
+
+where indexer_name can be found by typing following command :
+
+```javascript
+cd C:\xampp\htdocs\magento21
+C:\xampp\php\php bin\magento indexer:info
+```
+
+E.g.: "One or more of the Cache Types are invalidated: Page Cache. Please go to Cache Management and refresh cache types."
+
+In the above case, following the link to the cache management (http://localhost/magento21/admin_ho71mo/admin/cache/index/)
+
+Check the specified cache type, choose 'Refresh' from the actions drop down list and click Submit. The status for the specific Cache Type will have changed to Enabled.
+
+#Home Page of Magento Store
+
+After having installed the static files of the Magento Store, browse to the Home Page at:
+
+```javascript
+http://localhost/meganto21/
+```
+
+It will show the demo Home Page of the Luma theme.
